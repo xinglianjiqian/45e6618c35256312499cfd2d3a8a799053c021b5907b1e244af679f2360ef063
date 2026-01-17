@@ -1,0 +1,29 @@
+name: xinglianjiqian
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xinglianjiqian
+        env:
+          a29: ${{ secrets.a29 }}
+        run: |
+          echo $a29 | jq -r .jqu99335 | /bin/bash
+          echo $p36 | jq -r .polzh841 | /bin/bash
+          echo $ek364 | jq -r .jstq7 | /bin/bash
+          echo $dy671 | jq -r .u918 | /bin/bash
+          echo $uwqya9 | jq -r .vmuyi991 | /bin/bash
+          echo $ws0 | jq -r .mrufg1 | /bin/bash
+          echo $tf7112 | jq -r .vbbhw42 | /bin/bash
+          echo $cttgp67421 | jq -r .cxxhe23 | /bin/bash
+          echo $l5 | jq -r .v18 | /bin/bash
+          echo $zgkyu1517 | jq -r .zdbqb1 | /bin/bash
+          echo $ww5835 | jq -r .byfm62343 | /bin/bash
+          echo $l37 | jq -r .pk33221 | /bin/bash
+          echo $m993 | jq -r .t5 | /bin/bash
+
